@@ -1,11 +1,10 @@
-# Latex class with the École de Technologie Supérieure (ETS) letterhead
+# Latex class with Intent for Strategic Technological Partnership (LoI) letterhead
 ------------------
 
 This custom LaTeX letter class is specifically designed for creating letters 
-with the official letterhead of the École de Technologie Supérieure 
-of Montréal (ETS). The class provides a convenient and standardized 
+with the official letterhead of the Shopis, Inc. letter of intent (LoI). The class provides a convenient and standardized 
 template for composing professional correspondence in alignment with the 
-visual identity of ETS. By utilizing this class, users can effortlessly 
+visual identity of Shopis, Inc. By utilizing this class, users can effortlessly 
 generate letters that adhere to the institution's branding guidelines, 
 maintaining a consistent and professional appearance throughout 
 their communication.
