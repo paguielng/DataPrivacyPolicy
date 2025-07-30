@@ -1,0 +1,69 @@
+% You can use 11pt or 12pt font size 
+\documentclass[10pt,language=french]{ETSletter}  % Date, subject start and logo in French
+% \documentclass[11pt,language=english]{ETSletter} % Date, subject start and logo in English
+% \documentclass[11pt,language=spanish]{ETSletter  % Date, subject start and logo in Spanish
+
+% If you provide the option signature, the class will create 
+% a signature field that can be signed using Acrobat Reader
+% \documentclass[10pt,language=french,signature]{ETSletter}
+
+% To create some random text as example
+\usepackage{lipsum}
+
+% Uncomment this line if you don't want page numbering
+%\pagenumbering{gobble}
+
+% As per the new ETS guidelines, the phone number on the letters
+% should be the one below, but I kept the customization option just in case
+\ETSphone{514 396-8800}
+\ETSdepartment{Direction générale} % Your department here
+\ETSname{Paguiel Nganji} % Your name here
+% \ETScity{Montreal}  % If you want to change the default city (Montreal)
+
+% Optional subject line
+\subject{Intent for Strategic Technological Partnership – Shopis, Inc.}
+
+% You can create your signature here if you want to use an image.
+% If you provide the option "signature" to the document class, it will
+% create a signature field to be signed via Adobe Acrobat Reader. 
+% In such case, leave the content of \signature empty (i.e., \signature{}).
+\signature{
+ \raggedright
+ \includegraphics[scale=0.2]{figs/signature.png}
+}
+
+% Your address / affiliation details.
+\address{\textbf{Shopis, Inc. Director\\
+Chief Executive Officier\\
+Founder & Head of Development – Shopis}\\
+Cross-platform shopping list App cloud based at Regeringsgatan 19,
+Stockholm, Suede\\
+}
+
+\begin{document}
+
+% The recipient of the letter, in case there is one.
+\begin{letter}{
+    Oracle Corporation\\ 
+    500 Oracle Parkway\\ 
+    Redwood Shores, California, USA\\ 
+}
+
+\opening{To the Oracle, Corp. Team,}
+
+% The letter's content goes here.
+Shopis is a collaborative platform designed to streamline how individuals and groups manage shopping lists, purchases, and consumption planning. Our goal is to redefine the user experience through automation, real-time collaboration, and intelligent data processing. As we scale our infrastructure and optimize our backend architecture, we are actively seeking robust, secure, and enterprise-grade technological partners.
+
+Oracle’s cloud infrastructure, distributed database solutions, and developer ecosystem present a compelling foundation for our backend and data architecture. The maturity of Oracle’s tools in terms of scalability, availability, and compliance aligns closely with our requirements, especially as we enter a critical phase of platform growth, user acquisition, and analytics integration.
+
+Through this letter, we express our intent to explore a strategic collaboration with Oracle Corporation, particularly within the framework of the \textbf{Oracle for Startups} program. We are interested in leveraging Oracle Cloud Infrastructure (OCI), Autonomous Databases, and API management services to ensure secure and scalable data handling, as well as operational resilience.
+
+We are open to discussing potential technical integration opportunities, access to cloud credits or infrastructure support, and the possibility of joint visibility initiatives. While Shopis is committed to maintaining its operational and technological independence, we strongly believe that a partnership with Oracle could significantly accelerate our roadmap and reinforce our reliability commitments toward users.
+
+We would welcome the opportunity to engage in preliminary discussions with your team to evaluate mutual benefits and define the possible scope of collaboration. Please do not hesitate to reach out to us for further information or to schedule a call at your earliest convenience.
+
+\closing{Sincerely,}
+
+\end{letter}
+
+\end{document}
