@@ -1,1 +1,1 @@
-# Shopisdisplay
+# Shopis archives library
