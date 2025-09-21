@@ -1,2 +1,2 @@
-https://shopisbeta.netlify.app/
-https://shopisapp.netlify.app/
+1. https://shopisbeta.netlify.app/
+2. https://shopisapp.netlify.app/
